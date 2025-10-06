@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3e5d8;
+  margin: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+section {
+  margin: 40px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: white;
+}
+.recipe-img {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 04%;
+  margin-right: 04%;
+  width: 830px;
+  height: 500px;
+  border-radius: 15px;
+}
+h1 {
+  margin-left: 04%;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #373534;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+p {
+  margin-left: 04%;
+  margin-bottom: 60px;
+  font-size: 20px;
+  color: #54453de9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+article {
+  margin-left: 04%;
+  margin-right: 04%;
+  margin-bottom: 60px;
+  border-radius: 15px;
+  background-color: #fac2fa30;
+}
+.Preparation {
+  margin-left: 05%;
+  margin-bottom: 20px;
+  padding-top: 35px;
+  font-size: 40px;
+  font-weight: 500;
+  color: #551755;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+article > ul > li {
+  text-indent: 37px;
+  margin-left: 09.4%;
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: #54453de9;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+article > ul > .cook {
+  padding-bottom: 45px;
+}
+article > ul > li::marker {
+  color: #551755;
+  font-size: 18px;
+}
+h2 {
+  margin-left: 04%;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: rgba(147, 77, 77, 0.963);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+div > ul > li {
+  text-indent: 35.5px;
+  margin-left: 06.8%;
+  padding-bottom: 15px;
+  font-size: 20px;
+  color: #54453de9;
+  font-family: "Times New Roman", Times, serif;
+}
+div > ul > li::marker {
+  color: rgba(147, 77, 77, 0.963);
+  font-size: 15px;
+}
+hr {
+  margin-left: 04%;
+  margin-right: 04%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  color: rgba(228, 227, 227, 0.989);
+  border: 1px solid;
+}
+.instruction > li {
+  list-style-position: outside;
+  padding-left: 15px;
+  margin-left: 06.5%;
+  margin-right: 04%;
+  font-size: 20px;
+  line-height: 1.8;
+  font-family: "Times New Roman", Times, serif;
+  color: #47362ce9;
+}
+.instruction > li::marker {
+  color: rgba(147, 77, 77, 0.963);
+  font-size: 20px;
+  font-weight: 900;
+}
+.nutrition {
+  margin-left: 04%;
+  margin-right: 04%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #47362ce9;
+}
+.nutrition-table {
+  margin-left: 04%;
+  margin-right: 04%;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #47362ce9;
+}
+.table {
+  margin-left: 04%;
+  margin-right: 04%;
+  padding-bottom: 25px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 15px 0;
+  border-bottom: 1.6px solid rgba(228, 227, 227, 0.989);
+  font-size: 20px;
+}
+.value {
+  font-weight: bold;
+  color: rgba(125, 57, 57, 0.963);
+}
+tr:last-child td {
+  border-bottom: none;
+}
